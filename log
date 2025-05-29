@@ -1,0 +1,12 @@
+/home/shchen/code/study/wwx/smart-diet-assistant/.venv/lib/python3.10/site-packages/gradio/routes.py:26: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/home/shchen/code/study/wwx/smart-diet-assistant/.venv/lib/python3.10/site-packages/gradio_client/documentation.py:106: UserWarning: Could not get documentation group for <class 'gradio.mix.Parallel'>: No known documentation group for module 'gradio.mix'
+  warnings.warn(f"Could not get documentation group for {cls}: {exc}")
+/home/shchen/code/study/wwx/smart-diet-assistant/.venv/lib/python3.10/site-packages/gradio_client/documentation.py:106: UserWarning: Could not get documentation group for <class 'gradio.mix.Series'>: No known documentation group for module 'gradio.mix'
+  warnings.warn(f"Could not get documentation group for {cls}: {exc}")
+/home/shchen/code/study/wwx/smart-diet-assistant/.venv/lib/python3.10/site-packages/huggingface_hub/file_download.py:943: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+You are using the legacy behaviour of the <class 'transformers.models.llama.tokenization_llama.LlamaTokenizer'>. This means that tokens that come after special tokens will not be properly handled. We recommend you to read the related pull request available at https://github.com/huggingface/transformers/pull/24565
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:13<00:13, 13.29s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:23<00:00, 11.31s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:23<00:00, 11.61s/it]
+/home/shchen/code/study/wwx/smart-diet-assistant/services/foodlmm/online_demo.py:273: GradioDeprecationWarning: `layout` parameter is deprecated, and it has no effect
+  chatbot = gr.Chatbot(
